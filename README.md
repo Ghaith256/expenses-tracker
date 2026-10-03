@@ -47,5 +47,8 @@ For me the hardest part was the bonus things, the dark/light theme toggle and th
 
 For the theme toggle, the hardest part was something called "theme flashing". This means if you choose dark mode and then reload the page, for a tiny moment the page shows light mode first and then changes to dark. This looks bad. To fix this, I learned that I need to put a small script inside the `<head>` of the HTML, and this script must run right away (not with `defer` or `async`), so it sets the theme before the page is even shown to the user. I also learned about `localStorage`, which is used to remember the theme choice even after closing the browser, and `matchMedia`, which lets the page check if the user's operating system itself is set to dark mode, for the "Auto" option.
 
+###### Repo link
+https://github.com/Ghaith256/expenses-tracker.git
+
 ###### Demo link
 https://drive.google.com/file/d/1lkxUTdQHvhzl-Z2NcttEzMrj5HA0LJAa/view?usp=sharing
